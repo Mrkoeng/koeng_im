@@ -1,0 +1,39 @@
+page {
+    height: 100%;
+    background-color: #fdfdfd;
+}
+
+::-webkit-scrollbar {
+    display: none;
+}
+
+/* flex布局 */
+.u-f,
+.u-f-jc,
+.u-f-ac,
+.u-f-ajc {
+    display: flex;
+}
+
+.u-f-ac,
+.u-f-ajc {
+    align-items: center;
+    
+}
+
+.u-f-jc,
+.u-f-ajc{
+    justify-content: center;
+}
+
+.u-f-jsb {
+    justify-content: space-between;
+}
+
+.u-f1 {
+    flex: 1;
+}
+
+.u-column {
+    flex-direction: column;
+}

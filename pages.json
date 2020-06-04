@@ -1,0 +1,82 @@
+{
+	"pages": [ //pages数组中第一项表示应用启动页，参考：https://uniapp.dcloud.io/collocation/pages
+		{
+			"path": "pages/login/login",
+			"style": {
+				"app-plus": {
+					"titleNView": false //禁用原生导航
+				}
+			}
+		},
+        {
+            "path" : "pages/home/home",
+            "style" : {
+                "navigationBarTitleText": "消息"
+            }
+        },
+        {
+            "path" : "pages/friends/friends",
+            "style" : {
+                "app-plus": {
+                	"titleNView": false //禁用原生导航
+                },
+                "navigationBarTitleText": "列表"
+            }
+        },
+        {
+            "path" : "pages/chat-room/chat-room",
+            "style" : {
+                "navigationBarTitleText": "消息"
+                
+            }
+        },
+        {
+            "path" : "pages/user/user",
+            "style" : {
+                "navigationBarTitleText": "个人中心",
+                "app-plus": {
+                	"titleNView": {
+                		"type": "transparent",
+                		"titleColor": "#fff",
+                		"backgroundColor": "#007AFF"
+                	}
+                }
+            }
+        },
+        {
+            "path" : "pages/friends-add/friends-add",
+            "style" : {
+                "navigationBarTitleText": "新的朋友"
+                // "navigationBarBackgroundColor": "#e1dbdb"
+            }
+        }
+    ],
+	"globalStyle": {
+		"navigationBarTextStyle": "white",
+		"navigationBarTitleText": "KoengIM",
+		"navigationBarBackgroundColor": "#25B0F3",
+		"backgroundColor": "#25B0F3"
+	},
+    "tabBar": {
+        "color": "#7A7E83",
+        "selectedColor": "#007aff",
+        "borderStyle": "black",
+        "backgroundColor": "#ffffff",
+        "list": [{
+            "pagePath": "pages/home/home",
+            "iconPath": "static/image/message.png",
+            "selectedIconPath": "static/image/message.png",
+            "text": "消息"
+        }, {
+            "pagePath": "pages/friends/friends",
+            "iconPath": "static/image/partner.png",
+            "selectedIconPath": "static/image/partner.png",
+            "text": "通讯录"
+        },{
+            "pagePath": "pages/user/user",
+            "iconPath": "static/image/userinfo.png",
+            "selectedIconPath": "static/image/userinfo.png",
+            "text": "我"
+        }]
+    }
+}
