@@ -69,8 +69,8 @@ const actions = {
         let to = payload.issend ? payload.data.to_user : payload.data.from_user
         let chatDetailArr = uni.getStorageSync(`CHATDETAIL_${userInfo.userId}_${to}`)
 
-        chatDetailArr = chatDetailArr ? chatDetailArr : [],
-            chatDetailArr.push(chat._formatMsg('chatDetail', payload.data, payload.isme))
+        chatDetailArr = chatDetailArr ? chatDetailArr : [];
+        chatDetailArr.push(chat._formatMsg('chatDetail', payload.data, payload.isme))
         console.log('UPDATE_CHAT_DETAIL', chat._formatMsg('chatDetail', payload.data, payload.isme));
         uni.setStorage({
             key: `CHATDETAIL_${userInfo.userId}_${to}`,
