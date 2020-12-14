@@ -6,9 +6,6 @@
 <br/>
 <br/>
 <big>Qusetion1：为何写这样的一个DEMO？</big><br/>
-答：写这个demo的初衷也是被公司项目经理动不动就什么XMPP 动不动就openfire给气的<br/>
-<br/>
-<br/>
-<big>Qusetion2：为什么你的前端代码有些跟插件市场的聊天DEMO很像？</big><br/>
-答：是的。特别聊天室是COPY然后改的。不是我不写。是“懒”。对于那些被我COPY代码的同学 抱歉了 若有侵权请联系。<br/>
+答：写这个demo的初衷也是作为简单聊天接入<br/>
+
 
